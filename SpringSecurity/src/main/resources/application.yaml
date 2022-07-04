@@ -1,0 +1,15 @@
+server:
+  port: 8010
+  servlet:
+    context-path: /market
+jpa:
+  show-sql: true
+  hibernate:
+    ddl-auto: none
+    temp:use_jdbc_metadata_default: false
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:springSecurity;MODE=PostgreSQL
+    username: admin
+    password: admin
+
